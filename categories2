@@ -1,0 +1,43 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+url = "https://books.toscrape.com/"
+page_catalogue = "https://books.toscrape.com/catalogue/page-"
+
+response = requests.get(url)
+response_page = BeautifulSoup(response.text, 'html.parser')
+
+book_catalogue = []
+
+for i in range(51):
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, "html.parser")
+    books = response_page.find_all('article', {'class': 'product_pod'})
+
+    for book in books:
+        title_bs = soup.find_all("h1")
+        title = title_bs[0].string
+
+        product_information = soup.find_all("td")
+        upc = product_information[0].string
+        price_excluding_tax = product_information[2].string
+        price_including_tax = product_information[3].string
+        number_available = product_information[5].string
+        review_rating = product_information[6].string
+
+        product_description_bs = soup.find_all("p")
+        product_description = product_description_bs[3].string
+
+        category_bs = soup.find_all("a")
+        category = category_bs[3].string
+
+        image_bs = soup.find_all("img")
+        images = image_bs[0]
+        image = images.attrs['src']
+        book_catalogue.append(dict(title=title, product_information=product_information, upc=upc,
+                                   price_excluding_tax=price_excluding_tax, price_including_tax=price_including_tax,
+                                   number_available=number_available, review_rating=review_rating,
+                                   product_description=product_description, category=category, image=image))
+
+print(book_catalogue)
