@@ -138,7 +138,7 @@ def scrape_one_category():
 '''
 
 
-def scrape_everything():
+def scrape_all_categories():
 
     # Scrapper toutes les catégories
     all_category_urls = []
