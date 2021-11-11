@@ -39,23 +39,23 @@ def scrape_book_information():
 
         # récupération du paragraphe star-rating
         review_rating_bs = soup.find("p", class_='star-rating')
-        print('paragraphe star-rating récuperé:', review_rating_bs)
+        # paragraphe star-rating récuperé: review_rating_bs
 
         # récupération de la liste des classes du paragraphe
         review_rating_classes = review_rating_bs['class']
-        print('liste des classes du paragraphe récupérées:', review_rating_classes)
+        # liste des classes du paragraphe récupérées: review_rating_classes
 
         # récupération de la position de star-rating dans le tableau review_rating_class
         star_rating_index = review_rating_classes.index('star-rating')
-        print('position de star_rating récupéré:', star_rating_index)
+        # position de star_rating récupéré: star_rating_index
 
         # enlèvement de l'index star_rating_index
         review_rating_classes.pop(star_rating_index)
-        print('afficher ce qui reste dans review_rating_classes:', review_rating_classes)
+        # afficher ce qui reste dans review_rating_classes: review_rating_classes
 
         # récupération de ce qui reste dans review_rating_classes
         review_rating = review_rating_classes[0] + ' star(s)'
-        print('ce qui est resté dans review_rating_classes:', review_rating)
+        # ce qui est resté dans review_rating_classes: review_rating
         csv.write(
             title + ',' + upc + ',' + price_including_tax + ',' + price_excluding_tax + ',' + number_available + ',' +
             image + ',' + category + ',' + review_rating + ',' + product_description.replace(',', ''))
