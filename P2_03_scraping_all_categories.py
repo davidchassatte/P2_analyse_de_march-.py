@@ -115,11 +115,11 @@ def scrape_everything():
 
     # CREER UN FICHIER CSV POUR CHAQUE CATEGORIE
 
-    os.mkdir(os.path.join(os.getcwd(), 'Categories_CSV'))
+    os.mkdir(os.path.join(os.getcwd(), 'catégories_CSV'))
     df = pd.read_csv('scraping_all_categories.csv')
     categories = df.category
 
-    os.chdir(os.path.join(os.getcwd(), 'Categories_CSV'))
+    os.chdir(os.path.join(os.getcwd(), 'catégories_CSV'))
     for category3 in categories:
         category2 = df[(df['category'] == str(category3))]
         category2.to_csv(str(category3) + '.csv')
