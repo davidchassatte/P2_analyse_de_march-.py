@@ -112,6 +112,7 @@ def scrape_everything():
         with open(upc.replace(' ', '-') + '.jpg', 'wb') as f:
             im = requests.get(image)
             f.write(im.content)
+    os.chdir('../')
 
     # CREER UN FICHIER CSV POUR CHAQUE CATEGORIE
 
