@@ -4,7 +4,7 @@
 
 ###### Python ######
 
-sudo apt-get install python3 python3-venv python3-pip
+`sudo apt-get install python3 python3-venv python3-pip`
 
 ###### Environnement virtuel ######
 
