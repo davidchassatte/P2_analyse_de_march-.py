@@ -18,4 +18,4 @@ Ajouter les modules: `pip install -r requirements.txt`
 
 **Lancement**
 
-python3 main.py
+`python3 main.py`
