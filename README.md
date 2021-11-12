@@ -4,10 +4,13 @@
 
 ## Installation
 
+<br />
 
 **Installer python**
 
 Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
+
+<br />
 
 **Mettre en place l'environnement virtuel**
 
@@ -23,7 +26,7 @@ puis activez ce dernier.
 `source env/bin/activate`
 ```
 
-Enfin installez les modules
+Enfin, installez les modules
 
 ```bash
 `pip install -r requirements.txt`
@@ -33,6 +36,7 @@ Enfin installez les modules
 
 ## Utilisation du programme
 
+<br />
 
 **Lancement**
 
