@@ -38,7 +38,7 @@ Enfin, installez les modules
 
 <br />
 
-Tojours dans le terminal, lancez le programme
+Toujours dans le terminal, lancez le programme
 
 ```bash
 python3 main.py
