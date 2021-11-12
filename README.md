@@ -7,7 +7,7 @@
 
 **Installer python**
 
-`sudo apt-get install python3 python3-venv python3-pip`
+Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger python
 
 **Installer l'environnement virtuel**
 
