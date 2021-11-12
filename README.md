@@ -5,11 +5,11 @@
 ## Installation
 
 
-###### Python ######
+**Python**
 
 `sudo apt-get install python3 python3-venv python3-pip`
 
-###### Environnement virtuel ######
+**Environnement virtuel**
 
 Créer l'environnement: `python3 -m venv env`
 
@@ -22,6 +22,6 @@ Ajouter les modules: `pip install -r requirements.txt`
 ## Utilisation du programme
 
 
-###### Lancement ######
+**Lancement**
 
 `python3 main.py`
