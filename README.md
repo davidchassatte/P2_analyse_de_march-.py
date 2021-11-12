@@ -15,7 +15,6 @@ Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharg
 **Mettre en place l'environnement virtuel:**
 
 Ouvrez le Terminal et placez-vous dans le dossier du projet.
-
 Entrez ensuite la commande suivante pour créer l'environnement,
 
 ```bash
