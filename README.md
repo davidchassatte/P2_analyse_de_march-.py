@@ -18,19 +18,19 @@ Ouvrez le Terminal et placez-vous dans le dossier du projet.
 Entrez la commande suivante pour créer l'environnement,
 
 ```bash
-`python3 -m venv env`
+python3 -m venv env
 ```
 
 puis activez ce dernier. 
 
 ```bash
-`source env/bin/activate`
+source env/bin/activate
 ```
 
 Enfin, installez les modules.
 
 ```bash
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 <br />
