@@ -27,7 +27,7 @@ puis activez ce dernier.
 `source env/bin/activate`
 ```
 
-Enfin, installez les modules
+Enfin, installez les modules.
 
 ```bash
 `pip install -r requirements.txt`
