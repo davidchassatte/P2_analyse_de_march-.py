@@ -1,6 +1,5 @@
 # Instructions
 
-<br />
 
 ## Installation
 
@@ -36,7 +35,6 @@ Enfin, installez les modules
 
 ## Utilisation du programme
 
-<br />
 
 **Lancement**
 
