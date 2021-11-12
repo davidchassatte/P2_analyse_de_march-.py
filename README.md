@@ -8,7 +8,7 @@
 
 **Installer python:**
 
-Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
+&nbsp; Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
 
 <br />
 
