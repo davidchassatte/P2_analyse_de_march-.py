@@ -8,11 +8,11 @@ sudo apt-get install python3 python3-venv python3-pip
 
 **Environnement virtuel**
 
-Créer l'environnement: python3 -m venv env
+Créer l'environnement: [python3 -m venv env]
 
-Activer l'environnement: source env/bin/activate
+Activer l'environnement: [source env/bin/activate]
 
-Ajouter les modules: pip install -r requirements.txt
+Ajouter les modules: [pip install -r requirements.txt]
 
 ## Utilisation du programme
 
