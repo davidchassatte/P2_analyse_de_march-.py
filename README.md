@@ -2,7 +2,7 @@
 
 <br />
 
-## Installation de python et de son environnement virtuel
+## Installation de python et de l'environnement virtuel
 
 <br />
 
