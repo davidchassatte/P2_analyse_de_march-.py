@@ -38,9 +38,7 @@ Enfin, installez les modules
 
 <br />
 
-**Lancement
-
-<br />
+**Lancement**
 
 ```bash
 python3 main.py
