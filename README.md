@@ -11,15 +11,23 @@ Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharg
 
 **Mettre en place l'environnement virtuel**
 
-Ouvrez le Terminal pour créer l'environnement
+Ouvrez le Terminal pour créer l'environnement,
 
 ```bash
 `python3 -m venv env`
 ```
 
-Activer l'environnement: `source env/bin/activate`
+puis activez ce dernier. 
 
-Ajouter les modules: `pip install -r requirements.txt`
+```bash
+`source env/bin/activate`
+```
+
+Enfin installez les modules
+
+```bash
+`pip install -r requirements.txt`
+```
 
 <br />
 
