@@ -1,10 +1,8 @@
 # Instructions
 
-<br />
 
 ## Installation
 
-<br />
 
 ###### Python ######
 
@@ -24,7 +22,6 @@
 
 ## Utilisation du programme
 
-<br />
 
 ###### Lancement ######
 
