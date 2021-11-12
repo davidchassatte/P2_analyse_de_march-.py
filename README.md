@@ -2,13 +2,17 @@
 
 <br />
 
-## Installer python
+## Installation
+
+<br />
+
+**Installer python**
 
 Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
 
 <br />
 
-## Mettre en place l'environnement virtuel
+**Mettre en place l'environnement virtuel**
 
 Ouvrez le Terminal pour créer l'environnement,
 
@@ -31,6 +35,10 @@ Enfin, installez les modules
 <br />
 
 ## Utilisation du programme
+
+<br />
+
+**Lancement
 
 <br />
 
