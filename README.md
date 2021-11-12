@@ -14,7 +14,7 @@ Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharg
 
 **Mettre en place l'environnement virtuel:**
 
-Ouvrez le Terminal pour créer l'environnement,
+Ouvrez le Terminal et copiez-collez la commande suivante,
 
 ```bash
 `python3 -m venv env`
