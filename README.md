@@ -6,13 +6,13 @@
 
 <br />
 
-**Installer python**
+**Installer python:**
 
 Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
 
 <br />
 
-**Mettre en place l'environnement virtuel**
+**Mettre en place l'environnement virtuel:**
 
 Ouvrez le Terminal pour créer l'environnement,
 
@@ -38,7 +38,7 @@ Enfin, installez les modules
 
 <br />
 
-**Lancement**
+Tojours dans le terminal, lancez le programme
 
 ```bash
 python3 main.py
