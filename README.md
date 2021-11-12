@@ -9,7 +9,7 @@
 
 Rendez-vous sur [python.org](https://www.python.org/downloads/) pour télécharger et installer python
 
-**Installer l'environnement virtuel**
+**Mettre en place l'environnement virtuel**
 
 Créer l'environnement: `python3 -m venv env`
 
