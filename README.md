@@ -40,4 +40,6 @@ Enfin, installez les modules
 
 **Lancement**
 
-`python3 main.py`
+```bash
+python3 main.py
+```
