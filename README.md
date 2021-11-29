@@ -42,5 +42,5 @@ pip install -r requirements.txt
 Toujours dans le terminal, lancez à présent le programme.
 
 ```bash
-python3 main.py
+python main.py
 ```
